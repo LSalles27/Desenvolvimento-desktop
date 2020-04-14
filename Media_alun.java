@@ -32,7 +32,8 @@ public class Media_alun {
         JOptionPane.showMessageDialog(null, " A media do aluno " + nome + " é " + media);
         
         if(media < 5){
-            JOptionPane.showMessageDialog(null, " O aluno " +nome+ " foi reprovado ");
+            JOptionPane.showMessageDialog(null, " O aluno " +nome+ " foi reprovado ");//mostra uma mensagem dizendo que o aluno foi reprovado
+                                                                                        
         }
         else{
           JOptionPane.showMessageDialog(null, " O aluno " +nome+ " foi aprovado ");  
